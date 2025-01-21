@@ -1,0 +1,64 @@
+body{
+    position: relative;
+    
+    color:yellow
+}
+
+
+.mainTable ,th , td{
+border:1.5px solid black;
+ visibility: hidden;
+ 
+}
+
+thead th {
+
+    padding-left: 45px;
+    padding-right: 45px;
+    color:black
+}
+
+ td {
+
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:yellow;
+    background-color: gray;
+    font-size: large;
+    font-weight: bold;
+    border:none;
+    position: absolute;
+}
+
+h1{
+    visibility: hidden;
+    position: absolute;
+    color:black
+}
+
+.solutionMode{
+  
+ background-color: gray;
+    .mainTable ,th,td{
+       visibility:visible;
+       
+    }
+
+    button{
+        visibility: hidden;
+    }
+
+    h1{
+        visibility:visible;
+        position: relative;
+    }
+}
+ 
